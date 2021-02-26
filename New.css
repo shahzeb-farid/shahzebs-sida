@@ -23,11 +23,3 @@ li a :hover{
     background-color: mediumblue;
     color: mediumorchid;
 }
-ul {position: fixed; top: 0; width: 100%;}
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
