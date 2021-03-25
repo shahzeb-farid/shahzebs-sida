@@ -1,0 +1,19 @@
+.navbar{
+    list-style-type: none;
+    margin:0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: olive;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color:gold;
+    padding: 14px 16px;
+    text-decoration: indigo;
+}
+.navbar li a :hover{
+    background-color: mediumblue;
+}
