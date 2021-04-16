@@ -1,0 +1,78 @@
+.navbar{
+    list-style-type: none;
+    margin:0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: olive;
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color:gold;
+    padding: 14px 16px;
+    text-decoration: indigo;
+}
+.navbar li a :hover{
+    background-color: mediumblue;
+}
+table, td, th { 
+    border: 5px solid red; 
+  }
+  table { 
+    border-collapse: collapse; 
+  } 
+  td,th{
+      padding: 5px;
+  }
+  td{
+      text-align: center;
+  }
+  caption{
+    caption-side: bottom;
+    text-align: center; 
+    font-style: italic; 
+    font-weight: bold; 
+    color: black; 
+  }
+.table-simple th { 
+    background-color: black; 
+    color: white; 
+  }
+  .table-simple tr:nth-child(even) { 
+    background-color: #ececec; 
+  }
+  .table-simple tr:nth-child(odd) { 
+    background-color: #fff; 
+  }
+  .table-simple tr:hover { 
+    background-color: #acffbe; 
+  } 
+  .head-body-foot thead {
+
+    color: purple;
+    
+    background-color: rgb(243, 136, 13);
+    
+    }
+    
+    .head-body-foot tbody {
+    color: rgb(182, 212, 182);
+    font-weight: bold;
+    background-color: rgb(68, 39, 177);
+    }
+    .head-body-foot tfoot {
+    color: rgb(5, 4, 0);
+    background-color: rgb(227, 231, 233);
+    font-weight:bold ;
+    }
+    .head-body-foot thead:hover {
+      background-color: #acffe3;
+      }
+     .head-body-foot tfoot:hover {
+       background-color: firebrick;
+      }
+      .head-body-foot tbody:hover{
+        background-color: green;
+      }
